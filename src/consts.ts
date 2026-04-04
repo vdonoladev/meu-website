@@ -2,7 +2,7 @@ import type { Site, Page, Links, Socials } from "@types"
 
 // Global
 export const SITE: Site = {
-  TITLE: "@vdonoladev",
+  TITLE: "vdonoladev",
   DESCRIPTION: "Bem-vindo ao meu espaço, um blog e portfólio onde compartilho meus projetos, ideias e aprendizados como desenvolvedor.",
   AUTHOR: "Víctor Donola Ferreira",
 }
