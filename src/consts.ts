@@ -74,7 +74,7 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Twitter",
     ICON: "twitter-x",
-    TEXT: "donoladev",
+    TEXT: "@donoladev",
     HREF: "https://twitter.com/donoladev",
   },
 ]
