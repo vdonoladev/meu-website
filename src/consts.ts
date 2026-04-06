@@ -3,32 +3,32 @@ import type { Site, Page, Links, Socials } from "@types"
 // Global
 export const SITE: Site = {
   TITLE: "vdonoladev",
-  DESCRIPTION: "Welcome to my space, a blog and portfolio where I share my projects, ideas, and learnings as a developer.",
+  DESCRIPTION: "Bem-vindo ao meu espaço, um blog e portfólio onde compartilho meus projetos, ideias e aprendizados como desenvolvedor.",
   AUTHOR: "Víctor Donola Ferreira",
 }
 
 // Work Page
 export const WORK: Page = {
-  TITLE: "Work",
-  DESCRIPTION: "Places I have worked.",
+  TITLE: "Trabalho",
+  DESCRIPTION: "Lugares onde eu trabalhei.",
 }
 
 // Blog Page
 export const BLOG: Page = {
   TITLE: "Blog",
-  DESCRIPTION: "Writing on topics I am passionate about.",
+  DESCRIPTION: "Escrevo sobre temas pelos quais sou apaixonado.",
 }
 
 // Projects Page 
 export const PROJECTS: Page = {
-  TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
+  TITLE: "Projetos",
+  DESCRIPTION: "Projetos recentes nos quais eu trabalhei.",
 }
 
 // Search Page
 export const SEARCH: Page = {
-  TITLE: "Search",
-  DESCRIPTION: "Search all posts and projects by keyword.",
+  TITLE: "Pesquisa",
+  DESCRIPTION: "Pesquise todas as postagens e projetos por palavra-chave.",
 }
 
 // Links
