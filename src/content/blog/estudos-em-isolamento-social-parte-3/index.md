@@ -1,7 +1,7 @@
 ---
 title: "Estudos em Isolamento Social - Parte 3"
 summary: "Conviver com essa incerteza sem fim da pandemia está cada vez mais cansativo."
-date: "Abr 09 2020"
+date: "Apr 09 2020"
 draft: false
 tags:
 - Estudos em Isolamento Social
