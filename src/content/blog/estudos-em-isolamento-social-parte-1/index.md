@@ -7,8 +7,6 @@ tags:
 - Estudos em Isolamento Social
 ---
 
-Nos próximos dias, vou compartilhar por aqui os impactos da pandemia da COVID-19 do lado de dentro — no caso, como estudante.
-
 Antes de mais nada, deixa eu me apresentar rapidinho: gosto de escrever atigos (a maioria fica na gaveta mesmo), ler bastante (no momento estou com _Despejado: Pobreza e Lucro na Cidade Americana_, do Matthew Desmond) e tenho planos de seguir na área de Ciência da Computação.
 
 Essa série é um jeito de juntar o útil ao agradável: escrever, refletir e, quem sabe, ajudar outros estudante a verem que não estão sozinhos nessa bagunça toda.
