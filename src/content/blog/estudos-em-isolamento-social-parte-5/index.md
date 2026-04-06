@@ -1,7 +1,7 @@
 ---
 title: "Estudos em Isolamento Social - Parte 5"
 summary: "O mundo mudou muito desde a última vez que escrevi pra essa série."
-date: "Apr 17 2020"
+date: "Jun 17 2020"
 draft: false
 tags:
 - Estudos em Isolamento Social
