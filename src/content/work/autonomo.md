@@ -1,8 +1,8 @@
 ---
 company: "Autônomo"
 role: "Desenvolvedor Web (Freelancer)"
-dateStart: "01/06/2022"
-dateEnd: "01/12/2025"
+dateStart: "06/01/2022"
+dateEnd: "12/01/2025"
 ---
 
 - Criação de 15+ websites responsivos para pequenas empresas, profissionais liberais e empreendedores locais usando HTML, CSS e JavaScript.

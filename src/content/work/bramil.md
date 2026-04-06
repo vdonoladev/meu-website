@@ -1,8 +1,8 @@
 ---
 company: "Bramil Supermercados"
 role: "Auxiliar Administrativo"
-dateStart: "11/08/2024"
-dateEnd: "15/03/2025"
+dateStart: "08/11/2024"
+dateEnd: "03/15/2025"
 ---
 
 - Desenvolvi planilhas automatizadas em Excel para controle de estoque com dashboards.

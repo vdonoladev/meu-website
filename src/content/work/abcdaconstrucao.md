@@ -1,8 +1,8 @@
 ---
 company: "ABC da Construção"
 role: "Assistente Comercial"
-dateStart: "01/12/2019"
-dateEnd: "01/05/2022"
+dateStart: "12/01/2019"
+dateEnd: "05/01/2022"
 ---
 
 - Gerenciei planilhas financeiras e de vendas usando Pacote Office avançado.
