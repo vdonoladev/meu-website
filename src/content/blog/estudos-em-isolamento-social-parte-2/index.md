@@ -1,7 +1,7 @@
 ---
-title: "Estudos em Isolamento Social"
+title: "Estudos em Isolamento Social - Parte 2"
 summary: "Passou só uma semana, mas juro que parece que esse esquema de estudo remoto já faz parte da minha vida há meses."
-date: "Mar 31 2024"
+date: "Mar 31 2020"
 draft: false
 tags:
 - Estudos em Isolamento Social
