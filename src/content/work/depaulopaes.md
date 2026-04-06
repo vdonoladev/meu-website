@@ -2,7 +2,7 @@
 company: "De Paulo Pães"
 role: "Auxiliar Administrativo"
 dateStart: "06/01/2025"
-dateEnd: "01/07/2025"
+dateEnd: "07/01/2025"
 ---
 
 - Implementei sistema de rastreabilidade de equipamentos em comodato, otimizando controle através de planilhas automatizadas em Excel com macros VBA.
