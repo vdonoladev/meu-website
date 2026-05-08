@@ -18,25 +18,25 @@ const projects = (await getCollection("projects"))
   .slice(0,3)
 
 const stack = [
-  { 
-    text: "Astro", 
-    icon: "astro", 
-    href: "https://astro.build" 
+  {
+    text: "Astro",
+    icon: "astro",
+    href: "https://astro.build"
   },
-  { 
-    text: "Javascript", 
-    icon: "javascript", 
-    href: "https://www.javascript.com" 
+  {
+    text: "Javascript",
+    icon: "javascript",
+    href: "https://www.javascript.com"
   },
-  { 
-    text: "Typescript", 
-    icon: "typescript", 
-    href: "https://www.typescriptlang.org" 
+  {
+    text: "Typescript",
+    icon: "typescript",
+    href: "https://www.typescriptlang.org"
   },
-  { 
-    text: "Tailwind", 
-    icon: "tailwind", 
-    href: "https://tailwindcss.com" 
+  {
+    text: "Tailwind",
+    icon: "tailwind",
+    href: "https://tailwindcss.com"
   },
 ]
 ---
@@ -66,7 +66,7 @@ const stack = [
   </div>
 
   <script is:inline src="/js/bg.js"></script>
-  
+
   <!-- HERO -->
   <section class="relative h-screen w-full">
     <div id="planetcont" class='animate absolute inset-0 top-1/4 overflow-hidden'>
@@ -83,10 +83,10 @@ const stack = [
             Hello, I am ...
           </p>
           <p class='animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
-            Astro Sphere
+            vdonoladev
           </p>
           <p class='animated text-sm md:text-base lg:text-lg opacity-75'>
-            Currently designing products for humans.
+            Building interfaces, solutions and connections.
           </p>
           <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
             <a href='/blog' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
@@ -107,12 +107,15 @@ const stack = [
       <!-- About Section -->
       <section class="animate">
         <article>
-          <p>I am a <b><i>software engineer</i></b>, <b><i>ui/ux designer</i></b>, <b><i>product planner</i></b>, <b><i>mentor</i></b>, <b><i>student</i></b>, <b><i>minimalist</i></b>, <b><i>eternal optimist</i></b>, <b><i>crypto enthusiast</i></b> and <b><i>sarcasm connoisseur</i></b>.</p>
-          <p>I love to both build and break things. I am motivated by challenging projects with self-guided research and dynamic problem solving. My true passion is crafting creative front end designs with unique takes on color, typography and motion.</p>
-          <p>During my career</p>
-          <p>I have built products ranging from marketing and ecommerce websites to complex enterprise apps with focus on delivering fast, elegant code along with delightful user interfaces.</p>
-          <p>Now</p>
-          <p>I currently work as a software engineer at StreamlineFS, where I do product planning, design and development.</p>
+          <p>👋 Hi, I’m Victor. A Junior Web Developer passionate about technology, automation, and turning ideas into real-world solutions.</p>
+          <p>I’m currently studying <b><i>Systems Analysis and Development</i></b> and <b><i>Business Administration</i></b>, learning through hands-on experience every day and applying that knowledge to real projects and systems.</p>
+          <p>My main focus is back-end development, integrations, and process automation, always aiming to build organized, efficient applications that actually solve problems.</p>
+          <p>Throughout my journey</p>
+          <p>I’ve been building projects focused on performance, usability, and optimization while constantly improving as a developer through practical experience, studying, and new challenges.</p>
+          <p>Beyond technology</p>
+          <p>My background in administration gave me a more strategic perspective on processes, organization, and business needs — something I now bring into the way I build solutions.</p>
+          <p>Today</p>
+          <p>I continue studying, building projects, and deepening my knowledge to grow in tech and fully establish my transition into software development.</p>
         </article>
       </section>
 
@@ -147,7 +150,7 @@ const stack = [
           </p>
           <div class="flex flex-wrap items-center gap-2 mt-5">
             {stack.map(item => (
-              <StackCard 
+              <StackCard
                 text={item.text}
                 icon={item.icon}
                 href={item.href}
