@@ -2,33 +2,33 @@ import type { Site, Page, Links, Socials } from "@types"
 
 // Global
 export const SITE: Site = {
-  TITLE: "vdonoladev",
-  DESCRIPTION: "Bem-vindo ao meu espaço, um blog e portfólio onde compartilho meus projetos, ideias e aprendizados como desenvolvedor.",
-  AUTHOR: "Víctor Donola Ferreira",
+  TITLE: "Astro Sphere",
+  DESCRIPTION: "Welcome to Astro Sphere, a portfolio and blog for designers and developers.",
+  AUTHOR: "Mark Horn",
 }
 
 // Work Page
 export const WORK: Page = {
-  TITLE: "Trabalho",
-  DESCRIPTION: "Lugares onde eu trabalhei.",
+  TITLE: "Work",
+  DESCRIPTION: "Places I have worked.",
 }
 
 // Blog Page
 export const BLOG: Page = {
   TITLE: "Blog",
-  DESCRIPTION: "Escrevo sobre temas pelos quais sou apaixonado.",
+  DESCRIPTION: "Writing on topics I am passionate about.",
 }
 
 // Projects Page 
 export const PROJECTS: Page = {
-  TITLE: "Projetos",
-  DESCRIPTION: "Projetos recentes nos quais eu trabalhei.",
+  TITLE: "Projects",
+  DESCRIPTION: "Recent projects I have worked on.",
 }
 
 // Search Page
 export const SEARCH: Page = {
-  TITLE: "Pesquisa",
-  DESCRIPTION: "Pesquise todas as postagens e projetos por palavra-chave.",
+  TITLE: "Search",
+  DESCRIPTION: "Search all posts and projects by keyword.",
 }
 
 // Links
@@ -56,26 +56,26 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Email",
     ICON: "email", 
-    TEXT: "contato.victordonolaferreira@outlook.com",
-    HREF: "mailto:contato.victordonolaferreira@outlook.com",
+    TEXT: "markhorn.dev@gmail.com",
+    HREF: "mailto:markhorn.dev@gmail.com",
   },
   { 
     NAME: "Github",
     ICON: "github",
-    TEXT: "vdonoladev",
-    HREF: "https://github.com/vdonoladev/"
+    TEXT: "markhorn-dev",
+    HREF: "https://github.com/markhorn-dev/astro-sphere"
   },
   { 
     NAME: "LinkedIn",
     ICON: "linkedin",
-    TEXT: "Víctor Donola Ferreira",
-    HREF: "https://www.linkedin.com/in/vdonoladev/",
+    TEXT: "markhorn-dev",
+    HREF: "https://www.linkedin.com/in/markhorn-dev/",
   },
   { 
     NAME: "Twitter",
     ICON: "twitter-x",
-    TEXT: "@donoladev",
-    HREF: "https://x.com/donoladev",
+    TEXT: "markhorn_dev",
+    HREF: "https://twitter.com/markhorn_dev",
   },
 ]
 
