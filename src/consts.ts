@@ -4,32 +4,32 @@ import type { Site, Page, Links, Socials } from "@types";
 export const SITE: Site = {
   TITLE: "vdonoladev",
   DESCRIPTION:
-    "Welcome to vdonoladev, a personal portfolio and blog featuring my projects, articles, and professional journey.",
+    "Bem-vindo(a) ao vdonoladev, um portfólio pessoal e blog que apresenta meus projetos, artigos e trajetória profissional.",
   AUTHOR: "Víctor Donola Ferreira",
 };
 
 // Work Page
 export const WORK: Page = {
   TITLE: "Work",
-  DESCRIPTION: "Places I have worked.",
+  DESCRIPTION: "Locais onde já trabalhei.",
 };
 
 // Blog Page
 export const BLOG: Page = {
   TITLE: "Blog",
-  DESCRIPTION: "Writing on topics I am passionate about.",
+  DESCRIPTION: "Escrevo sobre tópicos que me interessam.",
 };
 
 // Projects Page
 export const PROJECTS: Page = {
   TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
+  DESCRIPTION: "Projetos recentes em que trabalhei.",
 };
 
 // Search Page
 export const SEARCH: Page = {
   TITLE: "Search",
-  DESCRIPTION: "Search all posts and projects by keyword.",
+  DESCRIPTION: "Pesquise todas as publicações e projetos por palavra-chave.",
 };
 
 // Links
@@ -39,7 +39,7 @@ export const LINKS: Links = [
     HREF: "/",
   },
   {
-    TEXT: "Work",
+    TEXT: "Experiências",
     HREF: "/work",
   },
   {
@@ -47,7 +47,7 @@ export const LINKS: Links = [
     HREF: "/blog",
   },
   {
-    TEXT: "Projects",
+    TEXT: "Projetos",
     HREF: "/projects",
   },
 ];
