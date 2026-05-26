@@ -29,27 +29,36 @@ html {
   color-scheme: light;
   background-color: white;
   font-family: "Atkinson", sans-serif;
-
 }
 
+/* ==========================================================================
+   MUDANÇA AQUI: MAPEAMENTO DO MODO ESCURO ROXO (PASTEL/ESPAÇAL)
+   ========================================================================== */
 html.dark {
   color-scheme: dark;
-  background-color: black;
+  background-color: #180E2A; /* Seu roxo escuro base */
 }
 
 html,
 body {
   @apply h-full w-full antialiased;
-  @apply bg-white dark:bg-black;
-  @apply text-black/75 dark:text-white/75;
+  @apply bg-white text-black/75;
+  transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
 }
 
-body {
-  @apply relative flex flex-col;
+/* Força o body a herdar o fundo roxo e suaviza o contraste do texto */
+html.dark body {
+  background-color: #180E2A;
+  color: rgba(240, 238, 255, 0.75); /* #f0eeff com opacidade para texto muted */
 }
 
 main {
-  @apply flex flex-col flex-1 bg-white dark:bg-black;
+  @apply flex flex-col flex-1 bg-white;
+}
+
+/* Garante que a tag main acompanhe o fundo roxo no modo escuro */
+html.dark main {
+  background-color: #180E2A;
 }
 
 header {
@@ -62,19 +71,53 @@ header:not(.scrolled) {
 }
 
 header.scrolled {
-  @apply bg-white/75 dark:bg-black/50;
-  @apply border-black/10 dark:border-white/25;
+  @apply bg-white/75;
+  @apply border-black/10;
   @apply backdrop-blur-sm saturate-200;
 }
 
+/* Customização do Header scrollado no modo escuro usando os tons do links.css */
+html.dark header.scrolled {
+  background-color: rgba(30, 25, 55, 0.65); /* #1D1735 translúcido */
+  border-color: rgba(144, 115, 255, 0.2);   /* #9073FF sutil nas bordas */
+}
+
 article {
-  @apply prose dark:prose-invert max-w-full pb-12;
+  @apply max-w-full pb-12;
+}
+
+/* Injeta os estilos do Tailwind Prose, aplicando a inversão de cor no escuro */
+article {
+  @apply prose;
+}
+
+html.dark article {
+  @apply prose-invert;
 }
 
 .page-heading {
-  @apply font-semibold text-black dark:text-white;
+  @apply font-semibold text-black;
 }
 
+/* Títulos principais ganham o tom claro e nítido da paleta */
+html.dark .page-heading {
+  color: #f0eeff;
+}
+
+/* Substituição das classes utilitárias de opacidade padrão do Tailwind 
+   para conversarem com a nova borda e fundos arroxeados
+*/
+html.dark .border-white\/25 {
+  border-color: rgba(144, 115, 255, 0.25);
+}
+
+html.dark .text-white\/75 {
+  color: rgba(240, 238, 255, 0.75);
+}
+
+/* ==========================================================================
+   MANUTENÇÃO DOS ESTILOS E ANIMAÇÕES ORIGINAIS DO SEU SITE
+   ========================================================================== */
 .blend {
   @apply transition-all duration-300 ease-in-out;
 }
@@ -112,7 +155,6 @@ article img {
 /**
  * TWINKLE STARS
  */
-
 #twinkle-star.template {
   @apply absolute -left-full;
   /* hide offscreen */
@@ -123,14 +165,11 @@ article img {
   /* defined in tailwind.config */
 }
 
-
 /**
  * Meteors
  */
-
 #meteors .shower {
   @apply absolute inset-0 top-0;
-  ;
   @apply left-1/2 -translate-x-1/2;
   @apply w-screen aspect-square;
 }
@@ -142,21 +181,10 @@ article img {
   @apply bg-gradient-to-b from-white to-transparent;
 }
 
-#meteors .shower.ur {
-  @apply rotate-45;
-}
-
-#meteors .shower.dr {
-  @apply rotate-135;
-}
-
-#meteors .shower.dl {
-  @apply rotate-225;
-}
-
-#meteors .shower.ul {
-  @apply rotate-315;
-}
+#meteors .shower.ur { @apply rotate-45; }
+#meteors .shower.dr { @apply rotate-135; }
+#meteors .shower.dl { @apply rotate-225; }
+#meteors .shower.ul { @apply rotate-315; }
 
 .copy-cnt {
   @apply absolute w-full;
@@ -172,15 +200,3 @@ article img {
 .copy-svg {
   @apply w-full aspect-square text-white opacity-70 hover:opacity-90;
 }
-
-/* Card transition */
-/* .fade-move-enter-active,
-.fade-move-exit-active {
-  transition: all 300ms ease;
-}
-
-.fade-move-enter-from,
-.fade-move-exit-to {
-  opacity: 0;
-  transform: translateY(10px);
-} */
