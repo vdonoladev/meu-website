@@ -29,29 +29,12 @@ html {
   color-scheme: light;
   background-color: white;
   font-family: "Atkinson", sans-serif;
+
 }
 
 html.dark {
   color-scheme: dark;
-
-  /* ── Modern dark theme tokens ── */
-  --dm-bg: #0f0d1a;
-  --dm-bg-card: rgba(30, 25, 55, 0.8);
-  --dm-text: #f0eeff;
-  --dm-text-muted: #9b92c8;
-  --dm-accent: #8b6bff;
-  --dm-border: rgba(140, 110, 255, 0.2);
-  --dm-border-hover: rgba(140, 110, 255, 0.5);
-  --dm-hover-bg: rgba(139, 107, 255, 0.12);
-
-  background-color: #0f0d1a;
-  background-image: linear-gradient(
-    135deg,
-    #0f0d1a 0%,
-    #1a0f2e 50%,
-    #0d1a2e 100%
-  );
-  background-attachment: fixed;
+  background-color: black;
 }
 
 html,
@@ -61,22 +44,12 @@ body {
   @apply text-black/75 dark:text-white/75;
 }
 
-/* ── Modern dark palette overrides ── */
-html.dark body {
-  background-color: transparent;
-  color: #f0eeff;
-}
-
 body {
   @apply relative flex flex-col;
 }
 
 main {
   @apply flex flex-col flex-1 bg-white dark:bg-black;
-}
-
-html.dark main {
-  background-color: transparent;
 }
 
 header {
@@ -94,11 +67,6 @@ header.scrolled {
   @apply backdrop-blur-sm saturate-200;
 }
 
-html.dark header.scrolled {
-  background-color: rgba(15, 13, 26, 0.85);
-  border-color: rgba(140, 110, 255, 0.25);
-}
-
 article {
   @apply prose dark:prose-invert max-w-full pb-12;
 }
@@ -109,92 +77,6 @@ article {
 
 .blend {
   @apply transition-all duration-300 ease-in-out;
-}
-
-/* ── Dark mode: footer background ── */
-html.dark footer {
-  background-color: transparent;
-}
-
-/* ── Dark mode: Drawer ── */
-html.dark #drawer {
-  background-color: rgba(20, 16, 40, 0.97);
-}
-
-/* ── Dark mode: planet on hero (keeps circular shape, uses deep purple) ── */
-html.dark #planet {
-  background-color: #0d0b1e;
-}
-
-/* ── Dark mode: content sections (bg-white dark:bg-black on divs) ── */
-html.dark div.dark\:bg-black,
-html.dark section.dark\:bg-black {
-  background-color: transparent;
-}
-
-/* ── Dark mode: border overrides (purple tint) ── */
-html.dark .dark\:border-white\/25 {
-  border-color: rgba(140, 110, 255, 0.25);
-}
-
-html.dark .dark\:border-white\/20 {
-  border-color: rgba(140, 110, 255, 0.2);
-}
-
-/* ── Dark mode: hover background overrides (purple tint) ── */
-html.dark .dark\:hover\:bg-white\/20:hover,
-html.dark .dark\:hover\:bg-white\/10:hover {
-  background-color: rgba(139, 107, 255, 0.15);
-}
-
-/* ── Dark mode: active nav item (accent purple instead of white) ── */
-/* Covers header nav, drawer nav, search icon, and CTA buttons */
-html.dark a[class*="dark:bg-white"] {
-  background-color: #8b6bff;
-  color: #ffffff;
-}
-
-html.dark a[class*="dark:text-black"] {
-  color: #ffffff;
-}
-
-/* ── Dark mode: hover/active text overrides ── */
-html.dark .dark\:hover\:text-white:hover,
-html.dark .dark\:text-white {
-  color: #f0eeff;
-}
-
-/* ── Dark mode: prose text ── */
-html.dark article {
-  --tw-prose-invert-body: #f0eeff;
-  --tw-prose-invert-headings: #f0eeff;
-  --tw-prose-invert-links: #8b6bff;
-  --tw-prose-invert-bold: #f0eeff;
-  --tw-prose-invert-counters: #9b92c8;
-  --tw-prose-invert-bullets: #9b92c8;
-  --tw-prose-invert-hr: rgba(140, 110, 255, 0.2);
-  --tw-prose-invert-quotes: #f0eeff;
-  --tw-prose-invert-quote-borders: rgba(140, 110, 255, 0.4);
-  --tw-prose-invert-captions: #9b92c8;
-  --tw-prose-invert-code: #f0eeff;
-  --tw-prose-invert-pre-code: #f0eeff;
-  --tw-prose-invert-pre-bg: rgba(30, 25, 55, 0.8);
-  --tw-prose-invert-th-borders: rgba(140, 110, 255, 0.3);
-  --tw-prose-invert-td-borders: rgba(140, 110, 255, 0.15);
-}
-
-/* ── Dark mode: selection highlight ── */
-html.dark ::selection {
-  background-color: rgba(139, 107, 255, 0.35);
-  color: #f0eeff;
-}
-
-/* ── Dark mode: scrollbar ── */
-html.dark ::-webkit-scrollbar-thumb {
-  background-color: rgba(140, 110, 255, 0.3);
-}
-html.dark ::-webkit-scrollbar-track {
-  background-color: #0f0d1a;
 }
 
 /** Light theme particles on home page */
@@ -212,9 +94,7 @@ html.dark ::-webkit-scrollbar-track {
 .animate {
   opacity: 0;
   transform: translateY(50px);
-  transition:
-    opacity 1s ease,
-    transform 1s ease;
+  transition: opacity 1s ease, transform 1s ease;
 }
 
 .animate.show {
@@ -243,12 +123,14 @@ article img {
   /* defined in tailwind.config */
 }
 
+
 /**
  * Meteors
  */
 
 #meteors .shower {
   @apply absolute inset-0 top-0;
+  ;
   @apply left-1/2 -translate-x-1/2;
   @apply w-screen aspect-square;
 }
