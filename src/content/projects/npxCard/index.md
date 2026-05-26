@@ -22,9 +22,7 @@ A ideia principal foi criar um hub acessível para qualquer pessoa que queira co
 
 ## 📸 Demonstração do Projeto
 
-<p align="center">
-  <img src="/public/projectImages/npxcard-demo.png" alt="Interface final do vdonoladev rodando no terminal" style="max-width: 100%; border-radius: 8px; border: 1px solid #333;" />
-</p>
+![Interface final do vdonoladev rodando no terminal](./npxcard-demo.png)
 
 ---
 
