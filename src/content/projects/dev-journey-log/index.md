@@ -6,7 +6,7 @@ draft: false
 tags:
   - Education
   - Learning
-demoUrl: https://github.com/vdonoladev/dev-journey-log
+demoUrl: https://dev-journey-log.vercel.app/
 repoUrl: https://github.com/vdonoladev/dev-journey-log
 ---
 
