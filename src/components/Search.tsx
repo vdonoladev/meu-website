@@ -39,7 +39,7 @@ export default function Search({ data }: Props) {
       {(query().length >= 2 && results().length >= 1) && (
         <div class="mt-12">
           <div class="text-sm uppercase mb-2">
-            Foram encontrados {results().length} resultados para {`'${query()}'`}
+            Found {results().length} results for {`'${query()}'`}
           </div>
           <ul class="flex flex-col gap-3">
             {results().map(result => (
