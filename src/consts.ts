@@ -2,33 +2,33 @@ import type { Site, Page, Links, Socials } from "@types"
 
 // Global
 export const SITE: Site = {
-  TITLE: "Astro Sphere",
-  DESCRIPTION: "Welcome to Astro Sphere, a portfolio and blog for designers and developers.",
-  AUTHOR: "Mark Horn",
+  TITLE: "Víctor Donola Ferreira",
+  DESCRIPTION: "Portfólio e blog pessoal de Víctor Donola Ferreira — desenvolvedor web, instrutor de TI e eterno aprendiz.",
+  AUTHOR: "Víctor Donola Ferreira",
 }
 
 // Work Page
 export const WORK: Page = {
-  TITLE: "Work",
-  DESCRIPTION: "Places I have worked.",
+  TITLE: "Experiências",
+  DESCRIPTION: "Lugares onde trabalhei e o que fiz por lá.",
 }
 
 // Blog Page
 export const BLOG: Page = {
   TITLE: "Blog",
-  DESCRIPTION: "Writing on topics I am passionate about.",
+  DESCRIPTION: "Textos sobre tecnologia, desenvolvimento e tudo que me faz perder o sono de curiosidade.",
 }
 
 // Projects Page 
 export const PROJECTS: Page = {
-  TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
+  TITLE: "Projetos",
+  DESCRIPTION: "Projetos recentes que desenvolvi ou estou desenvolvendo.",
 }
 
 // Search Page
 export const SEARCH: Page = {
-  TITLE: "Search",
-  DESCRIPTION: "Search all posts and projects by keyword.",
+  TITLE: "Buscar",
+  DESCRIPTION: "Pesquise posts e projetos por palavra-chave.",
 }
 
 // Links
@@ -38,7 +38,7 @@ export const LINKS: Links = [
     HREF: "/", 
   },
   { 
-    TEXT: "Work", 
+    TEXT: "Experiências", 
     HREF: "/work", 
   },
   { 
@@ -46,7 +46,7 @@ export const LINKS: Links = [
     HREF: "/blog", 
   },
   { 
-    TEXT: "Projects", 
+    TEXT: "Projetos", 
     HREF: "/projects", 
   },
 ]
@@ -56,26 +56,25 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Email",
     ICON: "email", 
-    TEXT: "markhorn.dev@gmail.com",
-    HREF: "mailto:markhorn.dev@gmail.com",
+    TEXT: "contato@vdonoladev.com.br",
+    HREF: "mailto:contato@vdonoladev.com.br",
   },
   { 
     NAME: "Github",
     ICON: "github",
-    TEXT: "markhorn-dev",
-    HREF: "https://github.com/markhorn-dev/astro-sphere"
+    TEXT: "vdonoladev",
+    HREF: "https://github.com/vdonoladev/"
   },
   { 
     NAME: "LinkedIn",
     ICON: "linkedin",
-    TEXT: "markhorn-dev",
-    HREF: "https://www.linkedin.com/in/markhorn-dev/",
+    TEXT: "vdonoladev",
+    HREF: "https://www.linkedin.com/in/vdonoladev/",
   },
   { 
     NAME: "Twitter",
     ICON: "twitter-x",
-    TEXT: "markhorn_dev",
-    HREF: "https://twitter.com/markhorn_dev",
+    TEXT: "donoladev",
+    HREF: "https://twitter.com/donoladev",
   },
 ]
-
