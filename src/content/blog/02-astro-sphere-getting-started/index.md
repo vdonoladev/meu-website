@@ -1,6 +1,6 @@
 ---
-title: "Astro Sphere: Getting Started"
-summary: "You've downloaded and installed the project. Let's hit the ground running."
+title: "Astro Sphere: Primeiros Passos"
+summary: "Você baixou e instalou o projeto. Vamos colocar tudo para funcionar."
 date: "Mar 16 2024"
 draft: false
 tags:
@@ -9,67 +9,66 @@ tags:
 - Astro Sphere
 ---
 
-Astro Sphere is designed to be configurable. This article will cover the basics on
-configuring the site and make it personal.
+O Astro Sphere foi projetado para ser configurável. Este artigo cobre o básico para personalizar o site.
 
-### First let's change the url
+### Primeiro, vamos alterar a URL
 
 ```js
 //astro.config.mjs
 
 export default defineConfig({
-  site: "https://astro-sphere.vercel.app", // your domain here
+  site: "https://astro-sphere.vercel.app", // seu domínio aqui
   integrations: [mdx(), sitemap(), solidJs(), tailwind({ applyBaseStyles: false })],
 })
 ```
 
-### Next, Let's configure the Site
+### Em seguida, vamos configurar o Site
 
 ```js
 // src/consts.ts
 
 export const SITE: Site = {
   TITLE: "Astro Sphere",
-  DESCRIPTION: "Welcome to Astro Sphere, a portfolio and blog for designers and developers.",
+  DESCRIPTION: "Bem-vindo ao Astro Sphere, portfólio e blog para designers e desenvolvedores.",
   AUTHOR: "Mark Horn",
 }
 ```
 
-| Field       | Type   | Description                                                            |
-| :---------- | :----- | :--------------------------------------------------------------------- |
-| TITLE       | String | The title of the website. Displayed in header and footer. Used in SEO. |
-| DESCRIPTION | String | The description of the index page of the website. Used in SEO.         |
-| AUTHOR      | String | Your name.                                                             |
+| Campo       | Tipo   | Descrição                                                                      |
+| :---------- | :----- | :----------------------------------------------------------------------------- |
+| TITLE       | String | Título do site. Exibido no cabeçalho e rodapé. Usado no SEO.                   |
+| DESCRIPTION | String | Descrição da página inicial do site. Usada no SEO.                             |
+| AUTHOR      | String | Seu nome.                                                                      |
 
-### Change the branding
+### Altere a identidade visual
 
-The browser icon is located in `/public/favicon.svg`
+O ícone do navegador está em `/public/favicon.svg`
 
-The header and footer branding icon is located in `/public/brand.svg` as a sprite with id="brand"
+O ícone de marca do cabeçalho e rodapé está em `/public/brand.svg` como um sprite com id="brand"
 
-### The rest of the consts file
+### O restante do arquivo consts
 
-Each page has a metadata entry that is useful for SEO.
+Cada página possui uma entrada de metadados útil para SEO.
 
 ```js
 export const WORK: Page = {
-  TITLE: "Work",
-  DESCRIPTION: "Places I have worked.",
+  TITLE: "Experiências",
+  DESCRIPTION: "Lugares onde trabalhei.",
 }
 ```
 
-The links that are displayed in the header and drawer
+Os links exibidos no cabeçalho e no menu lateral
 
 ```js
 export const LINKS: Links = [
   { HREF: "/", TEXT: "Home" },
-  { HREF: "/work", TEXT: "Work" },
+  { HREF: "/experiencias", TEXT: "Experiências" },
   { HREF: "/blog", TEXT: "Blog" },
-  { HREF: "/projects", TEXT: "Projects" },
+  { HREF: "/projetos", TEXT: "Projetos" },
 ]
 ```
 
-The social media links
+Os links para redes sociais
 
 ```js
 export const SOCIALS: Socials = [
@@ -82,9 +81,9 @@ export const SOCIALS: Socials = [
 ]
 ```
 
-| Field | Type | Required | Description |
-| :---- | :--- | :------- | :---------- |
-| NAME  | string | yes | Accessible name |
-| ICON  | string | yes | Refers to the symbol id in `public/social.svg` |
-| TEXT  | string | yes | Shorthand profile name |
-| HREF  | string | yes | The link to the social media profile |
+| Campo | Tipo   | Obrigatório | Descrição                                                    |
+| :---- | :----- | :---------- | :----------------------------------------------------------- |
+| NAME  | string | sim         | Nome acessível                                               |
+| ICON  | string | sim         | Corresponde ao id do símbolo em `public/social.svg`          |
+| TEXT  | string | sim         | Nome abreviado do perfil                                     |
+| HREF  | string | sim         | Link para o perfil na rede social                            |

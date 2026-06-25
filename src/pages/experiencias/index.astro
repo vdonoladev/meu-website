@@ -19,7 +19,7 @@ const work = await Promise.all(
 function formatWorkDate(input: Date | string) {
   if (typeof input === "string") return input
 
-  const month = input.toLocaleDateString("en-US", {
+  const month = input.toLocaleDateString("pt-BR", {
     month: "short",
   })
 
@@ -36,7 +36,7 @@ function formatWorkDate(input: Date | string) {
   </TopLayout>
   <BottomLayout>
     <ul>
-      { 
+      {
         work.map((entry) => (
           <li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none">
             <div class="text-sm uppercase mb-4">

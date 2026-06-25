@@ -1,6 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content"
-import { formatDate, readingTime } from "@lib/utils"
+import { formatDate, readingTime, collectionRoute } from "@lib/utils"
 
 type Props = {
   entry: CollectionEntry<"projects"> | CollectionEntry<"blog">
@@ -12,16 +12,18 @@ const { title, summary, date } = data
 
 const demoUrl = collection === "projects" ? data.demoUrl : null
 const repoUrl = collection === "projects" ? data.repoUrl : null
+
+const route = collectionRoute(collection)
 ---
 
 <div>
-  <a href={`/${collection}`} class="group w-fit p-1.5 gap-1.5 text-sm flex items-center border rounded hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out">
+  <a href={`/${route}`} class="group w-fit p-1.5 gap-1.5 text-sm flex items-center border rounded hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out">
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="stroke-current group-hover:stroke-black group-hover:dark:stroke-white">
       <line x1="19" y1="12" x2="5" y2="12" class="scale-x-0 group-hover:scale-x-100 translate-x-3 group-hover:translate-x-0 transition-all duration-300 ease-in-out" />
       <polyline points="12 19 5 12 12 5" class="translate-x-1 group-hover:translate-x-0 transition-all duration-300 ease-in-out" />
     </svg>
     <div class="w-full group-hover:text-black group-hover:dark:text-white transition-colors duration-300 ease-in-out">
-      Voltar para {collection}
+      Voltar para {route}
     </div>
   </a>
   <div class="flex flex-wrap text-sm uppercase mt-12 gap-3 opacity-75">
@@ -44,9 +46,9 @@ const repoUrl = collection === "projects" ? data.repoUrl : null
   <div class="mt-1">
     {summary}
   </div>
-  {(demoUrl || repoUrl) && 
+  {(demoUrl || repoUrl) &&
   <div class="mt-4 flex flex-wrap gap-2">
-    {demoUrl && 
+    {demoUrl &&
       <a href={demoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
         <svg class="size-4">
           <use href="/ui.svg#globe" class="fill-current group-hover:fill-black group-hover:dark:fill-white blend"/>
@@ -56,7 +58,7 @@ const repoUrl = collection === "projects" ? data.repoUrl : null
         </span>
       </a>
     }
-    {repoUrl && 
+    {repoUrl &&
       <a href={repoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
         <svg class="size-4">
           <use href="/ui.svg#link" class="fill-current group-hover:fill-black group-hover:dark:fill-white blend"/>
@@ -66,6 +68,6 @@ const repoUrl = collection === "projects" ? data.repoUrl : null
         </span>
       </a>
     }
-  </div> 
+  </div>
   }
 </div>

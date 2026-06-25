@@ -1,6 +1,6 @@
 ---
-title: "Astro Sphere: Adding a new post or project."
-summary: "Adding a new article (blog post or project) is pretty easy."
+title: "Astro Sphere: Adicionando um novo post ou projeto."
+summary: "Adicionar um novo artigo (post ou projeto) é bem simples."
 date: "Mar 14 2024"
 draft: false
 tags:
@@ -8,41 +8,41 @@ tags:
 - Astro
 - Astro Sphere
 ---
-### Basics
+### Básico
 
-Create a folder in the respective collection you wish to create content. The name of the folder will be the slug in which your content will be found.
+Crie uma pasta na coleção correspondente ao tipo de conteúdo que deseja criar. O nome da pasta será o slug pelo qual seu conteúdo será acessado.
 
 ```text
-creating the following
+ao criar
 
-/content/blog/my-new-post/index.md
+/content/blog/meu-novo-post/index.md
 
-will be published to
+será publicado em
 
-https://yourdomain.com/blog/my-new-post
+https://seudominio.com.br/blog/meu-novo-post
 
 ```
 
 ### Frontmatter
 
-Front matter is in yaml if you are familiar with the format. All posts and projects require frontmatter at the top of the document to be imported. All frontmatter must be inside triple dashes, similar to Astro format. See example below.
+O frontmatter é escrito em YAML. Todos os posts e projetos exigem frontmatter no início do documento. Todo o frontmatter deve estar entre três traços, similar ao formato do Astro. Veja o exemplo abaixo.
 
-### Blog Collection
+### Coleção Blog
 
-| Field   | Type    | Req? | Description                                                   |
-| :------ | :------ | :--- | :------------------------------------------------------------ |
-| title   | string  | yes  | Title of the post. Used in SEO.                               |
-| summary | string  | yes  | Short description of the post. Used in SEO.                   |
-| date    | string  | yes  | Any string date that javascript can convert. Used in sorting  |
-| tags    | array   | yes  | Post topic. Array of strings. Used in filtering.              |
-| draft   | boolean | no   | Hides the post from collections. Unpublished entry.           |
+| Campo   | Tipo    | Obrig.? | Descrição                                                         |
+| :------ | :------ | :------ | :---------------------------------------------------------------- |
+| title   | string  | sim     | Título do post. Usado no SEO.                                     |
+| summary | string  | sim     | Descrição curta do post. Usada no SEO.                            |
+| date    | string  | sim     | Qualquer string de data que o JavaScript consiga converter.       |
+| tags    | array   | sim     | Tópico do post. Array de strings. Usado para filtragem.           |
+| draft   | boolean | não     | Oculta o post das coleções. Entrada não publicada.                |
 
-Example blog post frontmatter
+Exemplo de frontmatter para post do blog
 
 ```yaml
 ---
-title: "Astro Sphere: Adding a new post or project."
-summary: "Adding a new article (blog post or project) is pretty easy."
+title: "Astro Sphere: Adicionando um novo post ou projeto."
+summary: "Adicionar um novo artigo (post ou projeto) é bem simples."
 date: "Mar 18 2024"
 draft: false
 tags:
@@ -52,24 +52,24 @@ tags:
 ---
 ```
 
-### Projects Collection (extends Blog Collection)
+### Coleção Projetos (estende a Coleção Blog)
 
-| Field   | Type    | Req? | Description                                                   |
-| :------ | :------ | :--- | :------------------------------------------------------------ |
-| title   | string  | yes  | Title of the post. Used in SEO.                               |
-| summary | string  | yes  | Short description of the post. Used in SEO.                   |
-| date    | string  | yes  | Any string date that javascript can convert. Used in sorting  |
-| tags    | array   | yes  | Post topic. Array of strings. Used in filtering.              |
-| draft   | boolean | no   | Hides the post from collections. Unpublished entry.           |
-| demoUrl | string  | no   | A link to the deployed project, if applicable.                |
-| repoUrl | string  | no   | A link to the repository, if applicable.                      |
+| Campo   | Tipo    | Obrig.? | Descrição                                                         |
+| :------ | :------ | :------ | :---------------------------------------------------------------- |
+| title   | string  | sim     | Título do post. Usado no SEO.                                     |
+| summary | string  | sim     | Descrição curta do post. Usada no SEO.                            |
+| date    | string  | sim     | Qualquer string de data que o JavaScript consiga converter.       |
+| tags    | array   | sim     | Tópico do post. Array de strings. Usado para filtragem.           |
+| draft   | boolean | não     | Oculta o post das coleções. Entrada não publicada.                |
+| demoUrl | string  | não     | Link para o projeto publicado, se aplicável.                      |
+| repoUrl | string  | não     | Link para o repositório, se aplicável.                            |
 
-Example project frontmatter
+Exemplo de frontmatter para projeto
 
 ```yaml
 ---
 title: "Astro Sphere"
-summary: "Astro Sphere, a portfolio and blog for designers and developers."
+summary: "Astro Sphere, portfólio e blog para designers e desenvolvedores."
 date: "Mar 18 2024"
 draft: false
 tags:
@@ -83,5 +83,5 @@ repoUrl: https://github.com/markhorn-dev/astro-sphere
 ---
 ```
 
-### Write your content
-You've made it this far, all that is left to do is write your content beneath the frontmatter. Writing markdown will be covered in the next article.
+### Escreva seu conteúdo
+Chegou a hora de escrever! Basta adicionar o conteúdo abaixo do frontmatter. A escrita em Markdown será abordada no próximo artigo.

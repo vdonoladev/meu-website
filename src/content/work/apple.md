@@ -1,6 +1,6 @@
 ---
 company: "Apple"
-role: "Software Engineer"
+role: "Engenheiro de Software"
 dateStart: "01/01/2020"
 dateEnd: "11/27/2022"
 ---

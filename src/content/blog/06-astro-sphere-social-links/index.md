@@ -1,6 +1,6 @@
 ---
-title: "Astro Sphere: Social media links"
-summary: "A quick tutorial on how to change, add or remove social media links"
+title: "Astro Sphere: Links para redes sociais"
+summary: "Um tutorial rápido sobre como alterar, adicionar ou remover links de redes sociais"
 date: "Mar 11 2024"
 draft: false
 tags:
@@ -9,9 +9,9 @@ tags:
 - Astro Sphere
 ---
 
-Astro Sphere comes preconfigured with social media links for Email, Github, Linked In and Twitter (X), but it's very easy to add more.
+O Astro Sphere já vem pré-configurado com links para E-mail, Github, LinkedIn e Twitter (X), mas é muito fácil adicionar mais.
 
-### Edit `consts.ts`
+### Edite o `consts.ts`
 
 ```js
 // consts.ts
@@ -26,20 +26,20 @@ export const SOCIALS: Socials = [
 ]
 ```
 
-| Field | Type | Required | Description |
-| :---- | :--- | :------- | :---------- |
-| NAME  | string | yes | Accessible name |
-| ICON  | string | yes | Refers to the symbol id in `public/social.svg` |
-| TEXT  | string | yes | Shorthand profile name |
-| HREF  | string | yes | The link to the social media profile |
+| Campo | Tipo   | Obrigatório | Descrição                                                    |
+| :---- | :----- | :---------- | :----------------------------------------------------------- |
+| NAME  | string | sim         | Nome acessível                                               |
+| ICON  | string | sim         | Corresponde ao id do símbolo em `public/social.svg`          |
+| TEXT  | string | sim         | Nome abreviado do perfil                                     |
+| HREF  | string | sim         | Link para o perfil na rede social                            |
 
-### Edit /public/social.svg
+### Edite /public/social.svg
 
-Simply add your own symbols to the svg sprite.
+Basta adicionar seus próprios símbolos ao sprite SVG.
 
-It is recommended that all styles be removed from new symbols added, or they may not show up correctly or conflict with Tailwind's classes.
+Recomenda-se remover todos os estilos dos novos símbolos adicionados, pois eles podem não aparecer corretamente ou entrar em conflito com as classes do Tailwind.
 
-The id should match the icon field as specified in your `consts.ts` file.
+O id deve corresponder ao campo icon conforme especificado no seu arquivo `consts.ts`.
 
 ```html
 <!-- public/social.svg -->
