@@ -1,6 +1,6 @@
 ---
 title: "Política de Privacidade"
-date: "03/07/2024"
+date: "06/29/2026" # Mês / Dia / Ano
 ---
 
 Esta Política de Privacidade descreve como as informações dos visitantes deste site são coletadas, utilizadas e protegidas.

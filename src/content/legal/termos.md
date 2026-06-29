@@ -1,9 +1,10 @@
 ---
 title: "Termos de Uso"
-date: "03/07/2024"
+date: "06/29/2026" # Mês / Dia / Ano
+
 ---
 
-Por favor, leia estes Termos de Uso ("Termos") com atenção antes de utilizar este site ("Serviço").
+Por favor, leia estes Termos de Uso com atenção antes de utilizar este site.
 
 #### Aceitação dos Termos
 Ao acessar e utilizar este site, você concorda com estes Termos de Uso em sua totalidade. Caso não concorde com algum dos termos aqui descritos, por favor, não utilize este serviço.
