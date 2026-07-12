@@ -4,33 +4,33 @@ import type { Site, Page, Links, Socials } from "@types";
 export const SITE: Site = {
   TITLE: "vdonoladev",
   DESCRIPTION:
-    "Portfólio e insights de Víctor Donola Ferreira — Desenvolvedor Full-Stack, Instrutor de TI e Estrategista focado em soluções digitais de alto impacto.",
+    "Espaço pessoal de Víctor Donola Ferreira — dev full-stack, instrutor de TI e eterno estudante, compartilhando o que aprendo (e erro) pelo caminho.",
   AUTHOR: "Víctor Donola Ferreira",
 };
 
 // Work Page
 export const WORK: Page = {
   TITLE: "Experiências",
-  DESCRIPTION: "Minha trajetória profissional, desafios superados e resultados entregues através da tecnologia.",
+  DESCRIPTION: "Um pouco da minha caminhada até aqui: os projetos que passaram pela minha mão e o que cada um me ensinou.",
 };
 
 // Blog Page
 export const BLOG: Page = {
   TITLE: "Blog",
   DESCRIPTION:
-    "Artigos e insights sobre engenharia de software, arquitetura de sistemas, performance e a intersecção entre tecnologia e negócios.",
+    "Anotações e reflexões sobre código, sistemas, disciplina e as ideias que vou juntando no dia a dia — sem fórmula pronta, só experiência real.",
 };
 
 // Projects Page
 export const PROJECTS: Page = {
   TITLE: "Projetos",
-  DESCRIPTION: "Aplicações reais, sistemas escaláveis e soluções digitais focadas em eficiência técnica e regras de negócio.",
+  DESCRIPTION: "Coisas que construí por curiosidade, necessidade ou só pra testar uma ideia. Nem tudo é perfeito, mas tudo é aprendizado.",
 };
 
 // Search Page
 export const SEARCH: Page = {
   TITLE: "Buscar",
-  DESCRIPTION: "Pesquise artigos, soluções e projetos por palavra-chave.",
+  DESCRIPTION: "Procure por assunto, tecnologia ou palavra-chave aqui no site.",
 };
 
 // Links
