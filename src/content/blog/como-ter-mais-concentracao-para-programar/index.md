@@ -6,7 +6,8 @@ draft: false
 tags:
 - Dicas
 - Produtividade
-- Organização
+- Programação
+- Foco
 ---
 
 O que diferencia os bons programadores dos demais é a sua capacidade de concentração, o mesmo acontece em vários outros segmentos de trabalho. Você se lembra na escola, onde o melhor aluno era sempre concentrado e observava com total atenção tudo o que era ensinado?

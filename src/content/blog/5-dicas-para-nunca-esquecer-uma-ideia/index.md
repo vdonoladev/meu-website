@@ -7,6 +7,7 @@ tags:
 - Dicas
 - Produtividade
 - Organização
+- Criatividade
 ---
 
 Sabe aquela ideia que surge do nada e, quando você vai ver... puff, sumiu? Pois é. Vamos evitar isso. Aqui vão cinco jeitos práticos de garantir que elas fiquem guardadas pra você usar na hora certa.

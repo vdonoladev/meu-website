@@ -6,7 +6,7 @@ draft: false
 tags:
 - Dicas
 - Produtividade
-- Organização
+- Tecnologia
 ---
 
 ### Introdução

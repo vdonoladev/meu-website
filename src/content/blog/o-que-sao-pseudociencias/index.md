@@ -4,8 +4,9 @@ summary: "Entenda o que são pseudociências, como identificá-las e quais os ri
 date: "Apr 08 2021"
 draft: false
 tags:
-- Estudos
 - Ciência
+- Estudos
+- Reflexão
 ---
 
 Para conversarmos um pouco melhor sobre o assunto, precisamos entender, em suma, o que é ciência.

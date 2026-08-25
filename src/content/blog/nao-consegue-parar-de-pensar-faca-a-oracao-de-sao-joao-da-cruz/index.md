@@ -6,6 +6,8 @@ draft: false
 tags:
 - Espiritualidade
 - Oração
+- Catolicismo
+- Reflexão
 ---
 
 Como um homem que escala uma montanha imponente em busca do grande segredo da vida, dedico muito do meu tempo a buscar o silêncio. Mas, em muitos dias, o silêncio é um luxo indescritível. Quando consigo alguma preciosa solidão, sempre é graças a Jesus.
