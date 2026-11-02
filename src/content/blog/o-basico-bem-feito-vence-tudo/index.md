@@ -1,6 +1,6 @@
 ---
 title: "O básico bem feito vence tudo"
-summary: "Por que a disciplina e o compromisso diário com o básico e o ordinário superam atalhos e constroem uma vida de destaque."
+summary: "Por que a disciplina diária e o compromisso silencioso com o ordinário superam atalhos vazios e constroem resultados de longo prazo."
 date: "Oct 29 2025"
 draft: false
 tags:
@@ -32,10 +32,10 @@ Hoje em dia, ser disciplinado já é ser extraordinário. Num mundo onde todo mu
 
 Claro que você vai falhar. Vai procrastinar, vai se distrair, vai ter dias ruins. Mas o que mantém você no jogo é o retorno constante ao básico: **o esforço diário, a disciplina, o foco, o simples**. É isso que constrói qualquer coisa com valor real.
 
-A vida não é feita de momentos extraordinários. Ela é feita do que você faz todos os dias, no silêncio, sem plateia. É ali, qunado ninguém tá vendo, que você decide quem você vai ser.
+A vida não é feita de momentos extraordinários. Ela é feita do que você faz todos os dias, no silêncio, sem plateia. É ali, quando ninguém tá vendo, que você decide quem você vai ser.
 
 Então, se comprometa com o que parece pequeno e sem graça. Acorda no horário, come bem, lê, treina, reza, estuda, dorme cedo e repete amanhã.
 
 Essas são as pequenas batalhas que, com o tempo, constroem uma vida forte.
 
-Porque no fim das contas, ser extraordináio **não é vencer o mundo em um único golpe, é vencer a si mesmo todos os dias**. E isso, qualquer um pode fazer. A questão é: **você vai?**
+Porque no fim das contas, ser extraordinário **não é vencer o mundo em um único golpe, é vencer a si mesmo todos os dias**. E isso, qualquer um pode fazer. A questão é: **você vai?**

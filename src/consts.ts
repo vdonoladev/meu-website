@@ -4,14 +4,15 @@ import type { Site, Page, Links, Socials } from "@types";
 export const SITE: Site = {
   TITLE: "vdonoladev",
   DESCRIPTION:
-    "Espaço pessoal de Víctor Donola Ferreira — dev full-stack, instrutor de TI e eterno estudante, compartilhando o que aprendo (e erro) pelo caminho.",
+    "Caderno de anotações público de Víctor Donola Ferreira — desenvolvedor full-stack e fundador da VD Tech & Suporte. Código, arquitetura, infraestrutura e aprendizados práticos.",
   AUTHOR: "Víctor Donola Ferreira",
 };
 
 // Work Page
 export const WORK: Page = {
   TITLE: "Experiências",
-  DESCRIPTION: "Um pouco da minha caminhada até aqui: os projetos que passaram pela minha mão e o que cada um me ensinou.",
+  DESCRIPTION:
+    "Um pouco da minha caminhada até aqui: os projetos que passaram pela minha mão e o que cada um me ensinou.",
 };
 
 // Blog Page
@@ -24,7 +25,8 @@ export const BLOG: Page = {
 // Projects Page
 export const PROJECTS: Page = {
   TITLE: "Projetos",
-  DESCRIPTION: "Coisas que construí por curiosidade, necessidade ou só pra testar uma ideia. Nem tudo é perfeito, mas tudo é aprendizado.",
+  DESCRIPTION:
+    "Coisas que construí por curiosidade, necessidade ou só pra testar uma ideia. Nem tudo é perfeito, mas tudo é aprendizado.",
 };
 
 // Search Page
@@ -56,27 +58,27 @@ export const LINKS: Links = [
 // Socials
 export const SOCIALS: Socials = [
   {
-    NAME: "Email",
+    NAME: "E-mail",
     ICON: "email",
     TEXT: "contato@vdonoladev.com.br",
     HREF: "mailto:contato@vdonoladev.com.br",
   },
   {
-    NAME: "Github",
+    NAME: "GitHub",
     ICON: "github",
-    TEXT: "vdonoladev",
-    HREF: "https://github.com/vdonoladev/",
+    TEXT: "@vdonoladev",
+    HREF: "https://github.com/vdonoladev",
   },
   {
     NAME: "LinkedIn",
     ICON: "linkedin",
-    TEXT: "vdonoladev",
-    HREF: "https://www.linkedin.com/in/vdonoladev/",
+    TEXT: "linkedin.com/in/vdonolaferreira",
+    HREF: "https://www.linkedin.com/in/vdonolaferreira/",
   },
   {
-    NAME: "Twitter",
+    NAME: "X (Twitter)",
     ICON: "twitter-x",
-    TEXT: "donoladev",
-    HREF: "https://twitter.com/donoladev",
+    TEXT: "@donoladev",
+    HREF: "https://x.com/donoladev",
   },
 ];

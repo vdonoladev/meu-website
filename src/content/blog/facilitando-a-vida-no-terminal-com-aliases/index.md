@@ -1,6 +1,6 @@
 ---
 title: "Facilitando a vida no terminal com aliases"
-summary: "Como criar e configurar aliases no terminal Linux para automatizar rotinas e otimizar o fluxo de trabalho."
+summary: "Como criar e configurar aliases no terminal Linux para automatizar rotinas repetitivas e otimizar o fluxo diário de trabalho."
 date: "Oct 29 2025"
 draft: false
 tags:
@@ -10,11 +10,11 @@ tags:
 - Tecnologia
 ---
 
-Hoje quero compartilhar com vocês algo que me ajuda bastante no dia a dia com o temrinal: os **aliases** no Linux – mais precisamente no **Pop!_OS**, que é o sistema que utilizo atualmente.
+Hoje quero compartilhar com vocês algo que me ajuda bastante no dia a dia com o terminal: os **aliases** no Linux – mais precisamente no **Pop!_OS**, que é o sistema que utilizo atualmente.
 
 ### O que são aliases?
 
-Aliases são basicamente **atalhos personalizados** que a gente cria no terminal pra facilitar comandos que usamos com frequência ou que são muito grandes. Em vez de digitar toda vez `sudo apt update && sudo apt upgrade -y`, por exemplo, você pode simplismente digitar `update`, e pronto – missão dada, missão cumprida! 😎
+Aliases são basicamente **atalhos personalizados** que a gente cria no terminal pra facilitar comandos que usamos com frequência ou que são muito grandes. Em vez de digitar toda vez `sudo apt update && sudo apt upgrade -y`, por exemplo, você pode simplesmente digitar `update`, e pronto – missão dada, missão cumprida! 😎
 
 Eles ajudam demais a **automatizar e acelerar o fluxo de trabalho**. Imagina ter que digitar o mesmo comando toda hora, sendo que dá pra encurtar isso em uma palavra? Pois é, meu amigo, é aí que entra o poder dos aliases.
 

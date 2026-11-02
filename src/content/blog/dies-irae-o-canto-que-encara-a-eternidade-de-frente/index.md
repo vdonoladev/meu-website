@@ -1,6 +1,6 @@
 ---
 title: "Dies Irae: o canto que encara a eternidade de frente"
-summary: "Uma reflexão sobre a força do hino medieval Dies Irae e o equilíbrio entre o temor do Juízo Final e a esperança na misericórdia divina."
+summary: "Uma reflexão sobre o peso e a sobriedade do hino medieval Dies Irae e o equilíbrio entre a gravidade do Juízo e a misericórdia."
 date: "Sep 14 2025"
 draft: false
 tags:
